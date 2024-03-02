@@ -33,6 +33,7 @@ ALLOWED_HOSTS = [".herokuapp.com",'https://mugisha-shabah-2811e01d6ef4.herokuapp
 # Application definition
 
 INSTALLED_APPS = [
+     "whitenoise.runserver_nostatic",
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -40,8 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'mine',
-    "whitenoise.runserver_nostatic",
-    "django.contrib.staticfiles",
+   
+    
     
 ]
 
