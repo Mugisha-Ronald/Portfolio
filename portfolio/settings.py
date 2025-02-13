@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-f0^22rkb3yfq-gn++&0i)zipgis%hj#)7k#%1th5p2rs(x9r(p
 DEBUG = True
 
 # ALLOWED_HOSTS = [".herokuapp.com",'https://mugisha-shabah-2811e01d6ef4.herokuapp.com/']
-ALLOWED_HOSTS = ['localhost', '127.0.0.1','http://127.0.0.1:8000']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1','http://127.0.0.1:8000','https://portfolio-ue4j.onrender.com']
 
 
 
