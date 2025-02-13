@@ -25,9 +25,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-f0^22rkb3yfq-gn++&0i)zipgis%hj#)7k#%1th5p2rs(x9r(p'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = [".herokuapp.com",'https://mugisha-shabah-2811e01d6ef4.herokuapp.com/']
+# ALLOWED_HOSTS = [".herokuapp.com",'https://mugisha-shabah-2811e01d6ef4.herokuapp.com/']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1','http://127.0.0.1:8000']
+
 
 
 # Application definition
@@ -133,7 +135,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+#STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = 'static/'
 MEDIA_URL = '/images/'
 
